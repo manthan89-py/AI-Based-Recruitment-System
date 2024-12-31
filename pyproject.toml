@@ -1,0 +1,15 @@
+[project]
+name = "phidataagents"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "anthropic>=0.42.0",
+    "mistralai>=1.2.5",
+    "openai>=1.58.1",
+    "phidata>=2.7.5",
+    "pypdf2>=3.0.1",
+    "streamlit>=1.41.1",
+    "streamlit-pdf-viewer>=0.0.19",
+]
